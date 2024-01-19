@@ -1,0 +1,13 @@
+Uuid: 84da5e8f47f94740a214954e3054935c
+ExtensionType: 1
+Name: Passkey Scanner
+RepoName: passkey-scanner
+ScreenVersion: 1.0
+SerialVersion: 1
+MinPlatformVersion: 4
+ProOnly: True
+Author: Alex Cowperthwaite
+ShortDescription: Recognizes and scans Passkey (webauthn) protocols and detects security issues.
+EntryPoint: lib/build/libs/lib.jar
+BuildCommand: cd lib && ./gradlew jar
+SupportedProducts: Pro

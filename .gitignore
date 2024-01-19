@@ -13,4 +13,3 @@ lib/build/libs/lib.zip
 
 # Ignore Gradle build output directory
 build
-gradle

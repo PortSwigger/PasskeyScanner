@@ -35,6 +35,8 @@ dependencies {
     implementation 'com.webauthn4j:webauthn4j-core:0.19.2.RELEASE'
 }
 
+compileJava.options.encoding = "UTF-8"
+
 // Apply a specific Java toolchain to ease working on different environments.
 java {
     toolchain {
